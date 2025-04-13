@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import ContactList from './components/ContactList/ContactList'
 import ContactForm from './components/ContactForm/ContactForm'
-import SearchBox from './SearchBox/SearchBox'
+import SearchBox from './components/SearchBox/SearchBox'
 
 function App() {
   const [contacts, setContacts] = useState(() => {
